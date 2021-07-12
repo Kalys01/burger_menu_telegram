@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background: #000;
 }
 
 .menu-btn {
@@ -14,6 +15,7 @@
   cursor: pointer;
   transition: all .5s ease-in-out;
   background: coral;
+  margin: 300px;
 }
 
 .menu-btn-burger {
@@ -44,7 +46,7 @@
 
 .menu-btn.open .menu-btn-burger {
   transform: translateX(-50px);
-  background: transparent;
+  /* background: transparent; */
 }
 
 .menu-btn.open .menu-btn-burger::before {
